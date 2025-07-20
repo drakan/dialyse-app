@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
-from routes.patients_routes import patients_bp  # Import uniquement ce dont tu as besoin
+//from routes.patients_routes import patients_bp  # Import uniquement ce dont tu as besoin
+from backend.routes.patients_routes import patients_bp
 import psycopg2
 
 app = Flask(__name__)
