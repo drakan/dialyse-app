@@ -1,6 +1,6 @@
 // src/services/api.js
 
-const API_BASE = 'http://localhost:5000/api/patients';
+const API_BASE = 'https://dialyse-api.onrender.com/api/patients';
 
 // 📦 Fonction utilitaire pour gérer les réponses
 const handleResponse = async (res) => {
